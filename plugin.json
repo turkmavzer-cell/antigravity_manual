@@ -1,0 +1,14 @@
+{
+  "name": "antigravity_manual",
+  "displayName": "Antigravity Manual — Argon & Hydrogen İş Akışı",
+  "version": "1.0.0",
+  "description": "Uzun onay kutuları olmadan Argon (Planlama) ve Hydrogen (Uygulama/Soru-Cevap) arasında 2-3 cümlelik akıllı geçiş ve çok repolu hafıza sistemi.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turkmavzer-cell/antigravity_manual.git"
+  },
+  "suggestedPrompts": [
+    "projeyi bağla",
+    "devam et"
+  ]
+}

@@ -1,0 +1,9 @@
+# Geçici ve yerel dosyalar
+*.tmp
+*.bak
+*.log
+.sync.log
+.DS_Store
+Thumbs.db
+.env
+.env.*

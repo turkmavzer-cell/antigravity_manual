@@ -1,0 +1,25 @@
+{
+  "manual-session-status": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/session-start.ps1",
+        "timeout": 10
+      }
+    ]
+  },
+  "manual-learning-autosync": {
+    "PostToolUse": [
+      {
+        "matcher": "write_file|edit_file",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/learning-autosync.ps1",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}
